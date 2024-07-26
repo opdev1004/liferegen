@@ -1,0 +1,21 @@
+<Module>
+    <Name value="LifeRegen"/>
+    <Id value="LifeRegen"/>
+    <Version value="v1.0.2"/>
+    <SingleplayerModule value="true"/>
+    <MultiplayerModule value="false"/>
+    <DependedModules>
+        <DependedModule Id="Native"/>
+        <DependedModule Id="SandBoxCore"/>
+        <DependedModule Id="Sandbox"/>
+        <DependedModule Id="StoryMode" />
+    </DependedModules>
+    <SubModules>
+        <SubModule>
+            <Name value="LifeRegen"/>
+            <DLLName value="LifeRegen.dll"/>
+            <SubModuleClassType value="LifeRegen.SubModule"/>
+        </SubModule>
+    </SubModules>
+    <Xmls />
+</Module>
